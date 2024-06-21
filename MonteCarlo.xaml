@@ -1,0 +1,17 @@
+﻿<Window x:Class="Projekt_Algorytmy.MonteCarlo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt_Algorytmy"
+        mc:Ignorable="d"
+        Title="MonteCarlo" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Kalkulator Monte Carlo" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,96,0,0" TextWrapping="Wrap" Text="Liczba Punktów" VerticalAlignment="Top"/>
+        <TextBox x:Name="textboxpunkty" HorizontalAlignment="Center" Margin="0,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <Button Content="Wylicz!" HorizontalAlignment="Center" Margin="0,363,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click"/>
+        <TextBlock x:Name="wynikblock" HorizontalAlignment="Center" Margin="0,342,0,0" TextWrapping="Wrap" Text="Uzupełnij wsyzstkie okienka i wciśnij &quot;Wylicz!&quot;" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

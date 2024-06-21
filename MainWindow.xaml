@@ -1,0 +1,16 @@
+﻿<Window x:Class="Projekt_Algorytmy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt_Algorytmy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Kliknij przycisk odpowiadający danemu algorytmowi" VerticalAlignment="Top"/>
+        <Button Content="Funkcja Sześcienna" HorizontalAlignment="Left" Margin="130,101,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click"/>
+        <Button Content="Algorytm Monte Carlo" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Click="Button_Click_2"/>
+        <Button Content="Wielomian do potęgi 5" HorizontalAlignment="Left" Margin="515,101,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
